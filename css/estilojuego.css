@@ -1,0 +1,81 @@
+body
+{
+	font-family: Helvetica;
+	background-color: #dcdcdc;
+}
+
+.contenido
+{
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid;
+	clear: both;
+}
+
+.imagen
+{
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+#jugador
+{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	margin-top: 20px;
+}
+
+.bateo
+{
+	width: 30%;
+	height: 30px;
+}
+
+.tablabotones
+{
+	width: 80%;
+	margin: 20px auto;
+	text-align: center;
+}
+
+table
+{
+	border: 1px solid;
+}
+
+td
+{
+	border: 1px solid;
+	width: 8.33%;
+}
+
+.informacion
+{
+	width: 80%;
+	text-align: center;
+	background-color: yellow;
+	margin: 0 auto;
+}
+
+.strikes
+{
+	width: 20%;
+	float: left;
+	margin-right: 10%;
+}
+
+.pizarra
+{
+	width: 50%;
+	float: left;
+}
+
+.datosjuego
+{
+	width: 100%;
+	background-color: blue;
+	margin-top: 20px;
+	text-align: center;
+}

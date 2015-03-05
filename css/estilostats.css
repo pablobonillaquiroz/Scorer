@@ -1,0 +1,46 @@
+*
+{
+	font-family: Helvetica;
+	padding: 5px;
+}
+.dato
+{
+	background-color: #77dd77;
+	width: 50%;
+}
+
+.valor
+{
+	width: 50%;
+}
+
+table
+{
+	border: 1px solid;
+	width: 90%;
+	margin: 0 auto;
+}
+
+th
+{
+	border: 1px solid;
+
+}
+
+td
+{
+	text-align: center;
+}
+
+#contenido
+{
+	width: 80%;
+	margin: 0 auto;
+}
+
+img
+{
+	width: 163px;
+	height: 233px;
+}
+
