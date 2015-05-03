@@ -31,5 +31,21 @@ class clsDatos
 	{
 		mysql_free_result($datos);
 	}
+
+	public function proximo($datos)
+	{
+		$arreglo = mysql_fetch_array($datos);
+		return $arreglo;
+	}
+
+	public function ejecutar($sql)
+	{
+		mysql_query($sql, $this->conexion);
+	}
+
+	public function cerrarconexion()
+	{
+		mysql_close($this->conexion);
+	}
 }
 ?>
