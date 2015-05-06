@@ -2,7 +2,7 @@
 <head>
 	<title>Recuperar Password</title>
 	<meta charset='utf-8'>
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
 	<script type="text/javascript">
 		function validar()
 		{
