@@ -2,8 +2,7 @@
 <head>
 	<title>Bienvenido a Scorer!</title>
 	<meta charset='utf-8'>
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-	<script type="text/javascript" src="./js/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/estilo.css">
 	<script type="text/javascript">
 	function validacion()
 	{
@@ -65,7 +64,7 @@
 	<h1>
 		Iniciar Sesión
 	</h1>
-	<form>
+	<form action="index.php?ctl=usuario&accion=login" method="POST">
 	<div>
 		<label for="correo" type="email">Correo:</label>
 	</div>
@@ -89,13 +88,13 @@
 	</div>
 	</form>
 	<div>
-		<a href="recuperarpass.html">Olvidé mi contraseña</a>
+		<a href="recuperarpass.php">Olvidé mi contraseña</a>
 	</div>
 	<div>
-		<a href="registro.html">Registrarme</a>
+		<a href="registro.php">Registrarme</a>
 	</div>
 	<div>
-		<a href="acerca.html">Acerca de nosotros</a>
+		<a href="acerca.php">Acerca de nosotros</a>
 	</div>
 </body>
 </html>

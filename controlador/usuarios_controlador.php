@@ -14,7 +14,7 @@ class Usuario
 			case "alta":
 			if(empty($_POST))
 			{
-				require_once("vistas/login.php");
+				require_once("vistas/registro.php");
 			}
 			else
 			{
@@ -24,7 +24,7 @@ class Usuario
 					$pass1   = $_POST["pass1"];
 				}
 				else
-					require_once("vistas/404.html")
+					require_once("vistas/404.html");
 
 
 				$resultado = $this -> modelo -> nuevousuario($correo, $pass1);
@@ -35,12 +35,29 @@ class Usuario
 				}
 			}
 			break;
+		
+		
+		case "login":
+			if(empty($_POST))
+			{
+				require_once("vistas/login.php");
+			}
+			else
+			{
+				if(isset($_POST["correo"]))
+					$correo = $_POST["correo"];
+				if (isset($_POST["pass"])){
+					$pass   = $_POST["pass"];
+				}
+				else
+					require_once("vistas/404.html");
+				
+				$resultado = $this -> modelo -> compararcorreoypass($correo, $pass);	
+				
+			}
+			break;
 		}
 	}
-	
-	//$datos=$this->modelo->nuevousuario($_POST['correo'], $_POST['pass1']);
-	//Llamada a la vista
-	//require_once("vistas/registro.php");
 }
 
 ?>

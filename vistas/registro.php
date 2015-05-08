@@ -3,11 +3,10 @@
 	<title>Registro</title>
 	<meta charset='utf-8'>
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-	<script src = "http://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script type="text/javascript">
 		function validacion()
 		{
-			c = document.getElementById("correo").value;
+			c  = document.getElementById("correo").value;
 			p1 = document.getElementById("pass1").value;
 			p2 = document.getElementById("pass2").value;
 
